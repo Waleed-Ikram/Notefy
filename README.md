@@ -1,0 +1,1 @@
+This is a Software For Mobile Devices semester project. This app basically allows users to make private and public notes. Its a note sharing platform where you can add colloborators and work on things together. Also, your ideas which are public notes can be shared to everyone on the platform.
