@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "169010897273",
+    "firebase_url": "https://notefy-58790-default-rtdb.firebaseio.com",
+    "project_id": "notefy-58790",
+    "storage_bucket": "notefy-58790.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169010897273:android:c9dad961e06e3e117d4fa8",
+        "android_client_info": {
+          "package_name": "com.example.notefy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169010897273-dg8la9qpsgaijvtcu1c0f4qheocmbcf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notefy",
+            "certificate_hash": "294acf6b3bbc82fc0a347bd6cf8556986bd87cb2"
+          }
+        },
+        {
+          "client_id": "169010897273-sp69m2ikc6egaiq72dtp3dhloq10qs4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdVYbHoWhJBwIiaJw-t8NtnA4xfd4UZ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169010897273-sp69m2ikc6egaiq72dtp3dhloq10qs4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

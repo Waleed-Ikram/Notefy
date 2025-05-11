@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".SignupFrag">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_marginTop="70dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Name"
+            android:id="@+id/etsname"
+            android:inputType="textAutoComplete"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp"
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Email"
+        android:id="@+id/etsemail"
+        android:inputType="textEmailAddress"
+        />
+</com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp"
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter Phone"
+        android:id="@+id/etsphone"
+        android:inputType="textEmailAddress"
+        />
+</com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp"
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter Password"
+        android:id="@+id/etspassword"
+        android:inputType="textPassword"
+        />
+</com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginHorizontal="20dp"
+
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Confirm Password"
+        android:id="@+id/etscpassword"
+        android:inputType="textPassword"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <Button
+        android:id="@+id/btnSsignup"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:text="Signup" />
+    <Button
+        android:id="@+id/btnssignupwithgoogle"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Google" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="Already have an Account" />
+
+        <Button
+            android:id="@+id/btnSlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="#3F51B5"
+            android:text="Login" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

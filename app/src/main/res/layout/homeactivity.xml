@@ -1,0 +1,203 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".PublicNoteActivity"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="#000000"
+            android:textColor="#EFA716">
+
+        </TextView>
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Htvname"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_marginStart="20dp"
+        android:text="Hey Name ,">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+
+            android:text="Note of the Day,">
+
+        </TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvadvice"
+            android:textStyle="bold|italic"
+            android:textSize="22dp"
+            android:layout_margin="10dp"
+            android:text="Everything happens for our own Good.">
+
+        </TextView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#F4CC03"
+        android:elevation="10dp"
+        app:cardCornerRadius="9dp"
+        android:layout_gravity="center"
+
+
+        android:id="@+id/btnpubnote"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Public Notes"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            app:cardBackgroundColor="@color/yellow"
+
+            android:elevation="10dp"
+            app:cardCornerRadius="9dp"
+            android:id="@+id/btnprinote"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Private Notes"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp"
+
+        app:cardBackgroundColor="#ECFD44"
+        android:elevation="10dp"
+        app:cardCornerRadius="1dp"
+        android:id="@+id/btnownpubnote"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Own Public Notes"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textSize="29dp"
+            android:textStyle="bold"
+            android:gravity="center">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="40dp"
+
+        android:id="@+id/layoutreq"
+        >
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Requests"
+            android:paddingVertical="5dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:background="#33F1E1"
+        android:gravity="center"
+        android:id="@+id/btnreqs"
+        />
+        <TextView
+            android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+            android:paddingVertical="5dp"
+        android:text="0"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#209591"
+        android:gravity="center"
+        android:id="@+id/reqcount"
+        >
+
+    </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

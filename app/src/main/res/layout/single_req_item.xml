@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/back"
+    android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reqtvname"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="name">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/reqtvreq"
+            android:paddingVertical="20dp"
+            android:layout_marginStart="10dp"
+            android:text="req">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:id="@+id/reqtvnote"
+            android:text="noteid">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reject"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:background="@color/yellow"
+                    android:id="@+id/btnreject"
+                    android:layout_marginEnd="50dp"
+                        >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accept"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:background="@color/yellow"
+                    android:padding="10dp"
+                    android:id="@+id/btnaccept"
+                        >
+
+                </TextView>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

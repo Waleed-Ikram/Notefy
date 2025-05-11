@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_single_own_note_view.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/single_own_note_view.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/xml_backup_rules.xml.flat",
+        "source": "com.example.notefy.app-main-49:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_private_note.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_private_note.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_fragment_google_signin.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/fragment_google_signin.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_single_view_comment.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/single_view_comment.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_publicnoteactivity.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/publicnoteactivity.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_add_public_note.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_add_public_note.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_edit_request.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_edit_request.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_single_req_item.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/single_req_item.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_fragment_signup.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_list_own_public_notes.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_list_own_public_notes.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_fragment_login.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.notefy.app-main-49:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_list_req.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_list_req.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_add_private_note.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_add_private_note.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_homeactivity.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/homeactivity.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_add_new_note_form.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/add_new_note_form.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.notefy.app-main-49:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_single_private_note_item_design.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/single_private_note_item_design.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_single_public_note_item_design.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/single_public_note_item_design.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notefy.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/layout_activity_auth.xml.flat",
+        "source": "com.example.notefy.app-main-49:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.example.notefy.app-merged_res-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.notefy.app-main-49:/drawable/ic_launcher_background.xml"
+    }
+]
